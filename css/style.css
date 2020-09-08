@@ -1,0 +1,347 @@
+/*this is font*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,800;1,500;1,700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2{
+	font-family: 'Alfa Slab One', cursive;
+}
+h3,h4,h5,h6,button{
+	font-family: 'Bebas Neue', cursive;
+}
+p,span,input,li,i,a{
+	font-family: 'Montserrat', sans-serif;
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+/**************************
+          HEADER
+***************************/
+.header{
+	width: 100%;
+	background: url(../img/image-1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 110vh;
+
+}
+.navbar{
+
+ 
+}
+.img-fluid{
+	width: 80%;
+}
+.nav-item{
+margin-top: 55px;
+}
+.nav-link{
+	color: #3d2514!important;
+	font-size: 18px!important;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 2px!important;
+	margin-left: 40px;
+	transition: .5s!important;
+
+}
+.nav-link:hover{
+	color: #6c757d!important;
+	transition: .5s!important;
+}
+.page-text{
+    margin: 150px 0;
+}
+.page-text h3{
+	font-size: 20px;
+	color:#3d2514; 
+	border: 2px dashed#3d2514;
+	display: inline-block;
+	padding: 10px;
+}
+.page-text h1{
+color: #3d2514;
+font-size: 87px;
+text-shadow: 3px 3px #fee8bc;
+}
+
+.page-text h2{
+color: #3d2514;
+font-size: 43px;
+text-shadow: 3px 3px #fee8bc;
+}
+.circle{
+	
+		
+	margin-top: 350px;
+	margin-right: 200px;
+
+}
+
+/**************************
+          picture
+***************************/
+.picture{
+	width: 100%;
+	
+}
+.image-part{
+	position: relative;
+}
+.image-text{
+	position: absolute;
+	color: white;
+	top: 26px;
+	left: 80px;
+
+
+}
+
+
+.image-text h3{
+	margin-top: -10px;
+}
+.upper-sec .lower-sec{
+	position: relative;
+
+}
+.upper-sec .image-text h3{
+	line-height: 28px;
+}
+.lower-sec .image-text{
+	margin-top: 160px;
+
+}
+.lower-sec{
+	margin-top: 25px;
+	
+}
+.first{
+	margin-top: 50px;
+	text-align: center;
+	
+	
+
+}
+button{
+	padding: 15px;
+	border: none;
+	background: #ffc045;
+	color: #3d2514;
+}
+/**************************
+          types
+***************************/
+
+.types{
+	width: 100%;
+
+}
+.types-title{
+	margin: 40px 0;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.types-title h1{
+	color: #3d2514;
+	font-size: 44px;
+}
+
+.types-title p{
+	color: #3d2514;
+	font-size: 15px;
+	line-height: 27px;
+}
+.style-1{
+	margin-top: 43px;
+}
+.style-2{
+	margin-top: 43px;}
+.image-text-2{
+	text-align: center;
+
+}
+.image-text-2 h3{
+	color: #3d2514;
+}
+.image-text-2 p{
+color: #3d2514;	
+}
+
+
+
+.img-fluid{
+	margin-left: 50px;
+}
+.mid-button{
+	text-align: center;
+	border: none;
+	background: #bf2222;
+	color:white;
+	
+}
+.mid-button h2{
+font-size: 15px;
+
+}
+/**************************
+          disover
+***************************/
+
+.discover{
+	width: 100%;
+	margin-top: 60px;
+
+}
+.discover-text{
+	margin: 45px 0;
+	padding:0 60px;
+}
+.discover-text h3{
+	color: #3d2514;
+}
+
+.discover-text h2{
+	color: #3d2514;
+}
+.discover-text p{
+	color: #3d2514;
+}
+.box-shadow:hover{
+	box-shadow: 6px 5px 10px 0px rgba(0,0,0,0.5)
+}
+.owl-theme .owl-nav {
+	margin-top: 10px;
+	display: none;
+}
+.owl-theme .owl-dots{
+	text-align: left;
+}
+.owl-dots{
+	position: absolute;
+	bottom: 0;
+	left: 40px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+	background: #ffc045;
+}
+
+/**************************
+          form
+***************************/
+.form{
+	width: 100%;
+	background: url(../img/image-8.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 80vh;
+	margin-top: 60px;
+}
+.form-text{
+	text-align: center;
+	color: #3d2514;
+	margin-top: 50px;
+}
+.form-input{
+	text-align: center;
+	margin: 150px 290px;
+	width: 50%;
+}
+.form-control{
+	font-family: 'Bebas Neue', cursive;
+
+}
+.button-control{
+	background: #bf2222;
+	padding: 7px 70px;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	font-family: 'Alfa Slab One', cursive;
+}
+/**************************
+          burger house
+***************************/
+
+.burger-house{
+
+width: 100%;
+}
+.container-new{
+width: 1140px;
+background: url(../img/image-9.png);
+background-size: cover;
+background-repeat: no-repeat;
+height: 50vh;
+margin: 0 auto;
+margin-top: 50px;
+
+}
+.logo{
+	width: 60%;
+	margin: 40px 10px;
+}
+.logo-text{
+	margin: 0 40px;
+}
+.logo-text p{
+	color: #f5f5f5;
+	font-size: 15px;
+
+
+}
+.contact{
+	margin-top: 170px;
+	margin-left: 170px;
+}
+.contact ul li{
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+     font-weight: 600px;	
+		list-style: none;
+		font-weight: 500;
+		cursor: pointer;
+		
+		
+}
+.contact ul li i{
+	margin-right: 10px;
+}
+.company{
+	margin-top: 40px;
+}
+.company a{
+	color: #f5f5f5;
+	margin: 0 40px;
+	font-size: 20px;
+	font-family: 'Bebas Neue', cursive;
+
+
+
+
+}
+
+.icon{
+	margin-top: 40px;
+	margin-left: 300px;
+}
+.icon ul li{
+	list-style: none;
+	display: inline-block;
+	color: black;
+	height: 25px;
+	width: 25px;
+	background: white;
+	border-radius: 60px;
+	text-align: center;
+	line-height:25px;
+	cursor: pointer;
+
+}
+
+
